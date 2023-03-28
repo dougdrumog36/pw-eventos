@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+  </head>
+
+  <body>
+
+    <header>
+      <div class="cont">
+        <nav>
+          <ul>
+            <li><a href="onclick.html"> onclick </a></li>
+            <li><a href="dblClick.html"> dblClick</a></li>
+            <li><a href="onChange.html"> onChange</a></li>
+            <li><a href="input.html"> input</a></li>
+            <li><a href="onLoad.html"> onLoad</a></li>
+            <li><a href="onMouseOver.html"> onMouseOver</a></li>
+            <li><a href="onMouseOut.html"> onMouseOut</a></li>
+            <li><a href="onKeyDown.html"> onKeyDown</a></li>
+            <li><a href="onKeyUp.html"> onKeyUp</a></li>
+            <li><a href="onFocus.html"> onFocus</a></li>
+            <li><a href="index.html">Home</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+    <div class="container">
+
+      <h1>onKeyDown</h1>
+
+      <div class="row">
+        
+        <div class="text-box">
+          <label for="texto2">Descrição do evento:</label>
+          <div class="textbox">
+            <p>
+              O onkeydown é disparado assim que a tecla é pressionada, sendo assim o primeiro entre os eventos a ser disparado. Em seguida é a vez do onkeypress, ou seja, enquanto a tecla está sendo pressionada e por último, quando a tecla é solta, o evento onkeyup é executado              
+            </p>
+          </div>
+          <label for="texto2">Elementos envolvidos:</label>
+          <div class="textbox">
+            <p>Foi utilizado um input com um id que indentifica as teclas que estao sendo digitadas e jogam para a variavel do span</p>
+          </div>
+        </div>
+        
+      </div>
+
+      <input type="text" id="tecla">
+      <p><span id="res"></span></p>
+
+      <script src="./js/onkeydown.js"></script>
+    </div>
+  </body>
+</html>

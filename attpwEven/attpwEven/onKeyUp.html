@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+  </head>
+
+  <body>
+
+    <header>
+      <div class="cont">
+        <nav>
+          <ul>
+            <li><a href="onclick.html"> onclick </a></li>
+            <li><a href="dblClick.html"> dblClick</a></li>
+            <li><a href="onChange.html"> onChange</a></li>
+            <li><a href="input.html"> input</a></li>
+            <li><a href="onLoad.html"> onLoad</a></li>
+            <li><a href="onMouseOver.html"> onMouseOver</a></li>
+            <li><a href="onMouseOut.html"> onMouseOut</a></li>
+            <li><a href="onKeyDown.html"> onKeyDown</a></li>
+            <li><a href="onKeyUp.html"> onKeyUp</a></li>
+            <li><a href="onFocus.html"> onFocus</a></li>
+            <li><a href="index.html">Home</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+    <div class="container">
+
+      <h1>onKeyUp</h1>
+
+      <div class="row">
+        
+        <div class="text-box">
+          <label for="texto2">Descrição do evento:</label>
+          <div class="textbox">
+            <p>
+              O evento KeyUp ocorre depois de qualquer evento para um controle gerado pelo pressionamento ou envio da tecla. Se um pressionamento de tecla faz o foco mover de um controle para outro controle, o evento KeyDown ocorra para o primeiro controle, enquanto os eventos KeyPress e KeyUp ocorrem para o segundo controle.
+            </p>
+          </div>
+          <label for="texto2">Elementos envolvidos:</label>
+          <div class="textbox">
+            <p>Foi utilizado um input com um id que indentifica as teclas que estao sendo digitadas e chama uma função para salvar a ultima tecla que foi digitada e jogar no span</p>
+          </div>
+        </div>
+        
+      </div>
+
+      <input type="text" id="tecla">
+      <p><span id="res"></span></p>
+      
+      <script src="./js/onkeyup.js"></script>
+
+    </div>
+  </body>
+</html>

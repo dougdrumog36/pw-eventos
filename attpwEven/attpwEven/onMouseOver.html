@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+  </head>
+
+  <body>
+
+    <header>
+      <div class="cont">
+        <nav>
+          <ul>
+            <li><a href="onclick.html"> onclick </a></li>
+            <li><a href="dblClick.html"> dblClick</a></li>
+            <li><a href="onChange.html"> onChange</a></li>
+            <li><a href="input.html"> input</a></li>
+            <li><a href="onLoad.html"> onLoad</a></li>
+            <li><a href="onMouseOver.html"> onMouseOver</a></li>
+            <li><a href="onMouseOut.html"> onMouseOut</a></li>
+            <li><a href="onKeyDown.html"> onKeyDown</a></li>
+            <li><a href="onKeyUp.html"> onKeyUp</a></li>
+            <li><a href="onFocus.html"> onFocus</a></li>
+            <li><a href="index.html">Home</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+    <div class="container">
+
+      <h1>onMouseOver</h1>
+
+      <div class="row">
+        
+        <div class="text-box">
+          <label for="texto2">Descrição do evento:</label>
+          <div class="textbox">
+            <p>
+              O evento onMouseOver executará uma função sempre que o mouse passar por cima do elemento que estiver associado ao evento.
+            </p>
+          </div>
+          <label for="texto2">Elementos envolvidos:</label>
+          <div class="textbox">
+            <p>Foi utilizado um botao com o id "cor" que quando ou mouse passa por cima dele chama uma função para mudar a cor do texto do botao.</p>
+          </div>
+        </div>
+        
+      </div>
+
+      <button id="cor" onmouseover="mudarcor()">Testar</button>
+      
+      <script src="./js/onmouseover.js"></script>
+    </div>
+  </body>
+</html>
